@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building EnlishExamin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ EnlishExamin ---
+[INFO] Deleting F:\Maven_project\EnlishExamin\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ EnlishExamin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ EnlishExamin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to F:\Maven_project\EnlishExamin\target\classes
+[WARNING] /F:/Maven_project/EnlishExamin/src/main/java/InstantiationExcel.java: 某些输入文件使用了未经检查或不安全的操作。
+[WARNING] /F:/Maven_project/EnlishExamin/src/main/java/InstantiationExcel.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ EnlishExamin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\Maven_project\EnlishExamin\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ EnlishExamin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ EnlishExamin ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ EnlishExamin ---
+[INFO] Building jar: F:\Maven_project\EnlishExamin\target\EnlishExamin-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:3.1.0:shade (default) @ EnlishExamin ---
+Downloading from repo2: http://repo2.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
